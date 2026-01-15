@@ -1,0 +1,22 @@
+??? Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.1.5:3001
+
+??? Starting...
+node.exe : ??? Unable to acquire lock at C:
+\Users\Smaiyl\Desktop\designs_for_cshack\my
+-app\.next\dev\lock, is another instance 
+of next dev running?
+??????:1 ????:1
++ & "D:\/node.exe" "C:\Users\Smaiyl\AppData
+\Roaming\npm/node_modules/np ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : (??? Unable to a...xt dev running?:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h

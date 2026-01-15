@@ -9,7 +9,23 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+}
+
+@utility font-brand {
+  font-family: var(--font-luckiest-guy), cursive;
+}
+
+@utility font-mono-bold {
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-weight: 700;
+}
+
+@utility font-accent {
+  font-family: var(--font-pinyon-script), cursive;
+}
+
+@utility perspective-1000 {
+  perspective: 1000px;
 }
 
 @media (prefers-color-scheme: dark) {
