@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CSC HACK 2026 | Design Deck
+
+An interactive presentation deck showcasing branding, identity, and promotional materials for the **CSC HACK Astana 2026** hackathon.
+
+![Next.js](https://img.shields.io/badge/Next.js-16.1-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC?logo=tailwindcss)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.26-FF0055?logo=framer)
+
+## Features
+
+- **7 Interactive Slides** — Navigate through event branding concepts
+- **Participant Badges** — Flip-animated ID cards for different roles
+- **Sponsor Banners** — Vertical banner mockups with specs
+- **Photo Zone** — Step-and-repeat press wall design
+- **Certificates** — Premium award certificate template
+- **Keyboard Navigation** — Use arrow keys to browse slides
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js 16 | App framework |
+| React 19 | UI library |
+| Tailwind CSS 4 | Styling |
+| Framer Motion | Animations |
+| Lucide React | Icons |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/cs-hack-designs.git
+cd cs-hack-designs
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the deck.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+| Action | Control |
+|--------|---------|
+| Next slide | `→` Arrow Right |
+| Previous slide | `←` Arrow Left |
+| Next slide | Click right button |
+| Previous slide | Click left button |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Slides Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Intro** — Event branding and key details
+2. **Participant Identity** — Participant badge design
+3. **The Enforcers** — Coordinator and Jury badges
+4. **The Support** — Volunteer badge design
+5. **Sponsorship Spec** — Banner and stand mockups
+6. **Victory Wall** — Photo zone press stage
+7. **The Victory** — Award certificate template
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+cs-hack-designs/
+├── app/
+│   ├── page.tsx       # Main presentation deck
+│   ├── layout.tsx     # Root layout with metadata
+│   ├── globals.css    # Global styles and utilities
+│   └── favicon.ico    # Site favicon
+├── public/            # Static assets
+├── package.json       # Dependencies
+└── README.md          # This file
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is for the CSC HACK Astana 2026 hackathon.
+
+---
+
+Built with ❤️ for **CSC HACK Astana 2026**
