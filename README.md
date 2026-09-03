@@ -1,5 +1,7 @@
 # CSC HACK 2026 | Design Deck
 
+Status: one-off from January 2026, not maintained. Live: https://cs-hack-designs.vercel.app
+
 An interactive presentation deck showcasing branding, identity, and promotional materials for the **CSC HACK Astana 2026** hackathon.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.1-black?logo=next.js)
